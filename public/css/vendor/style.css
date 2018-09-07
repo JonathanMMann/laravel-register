@@ -1,0 +1,145 @@
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.graph-margin-top {
+  margin-top: 125px;
+}
+
+.card-testimonial .card-description {
+  color: #696767;
+}
+
+.form-control + .form-control-feedback {
+    border-radius: 6px;
+    font-size: 14px;
+    color: #f5593d;
+    font-size: .8rem;
+    position: relative;
+    top: 100%;
+    padding-left: 12px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .graph-margin-top {
+    margin-top: 0px;
+  }
+}
+
+
+.no-margin--bottom {
+  margin-bottom: 0 !important;
+}
+
+
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.color-brown {
+  color: #66615b;
+}
+
+.section-orange {
+  background-color: #f7765f;
+  color: #fff;
+}
+
+.section-orange .title {
+  color: #fff;
+}
+
+.invisible {
+  visibility: invisible;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.alert-fixed {
+  position:     fixed;
+  bottom:       0px;
+  right:        0px;
+  width:        400px;
+  z-index:      9999;
+  border-radius:0px
+}
+
+.description {
+  color: #6f6e6e;
+}
+
+.phone {
+  font-size: 28px !important;
+}
+.reward-section .title {
+  margin-bottom: 0px;
+}
+.reward-section .subtitle {
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.reward-section .link {
+  font-size: 20px;
+}
+
+.features-4 .info-horizontal {
+  padding: 25px 0 0px;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 185px !important;
+}
+
+@media only screen and (min-width: 320px) {
+
+  .background-image {
+    background-image: url('../images/get-started-small.jpeg');
+  }
+
+}
+
+@media only screen and (min-width: 700px) {
+
+  .background-image {
+    background-image: url('../images/get-started-med.jpeg');
+  }
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+  .background-image {
+    background-image: url('../images/get-started-large.jpeg');
+  }
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+  .background-image {
+    background-image: url('../images/get-started-full.jpeg');
+  }
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 1300px),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px),
+only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
+only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
+
+  .background-image {
+    background-image: url('../images/get-started-large.jpeg');
+  }
+
+}
